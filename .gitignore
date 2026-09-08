@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# uv
+uv.lock.tmp
+
+# Build output
+dist/
+build/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Load test output
+results.png
+
+# Personal planning notes
+PLAN.md
