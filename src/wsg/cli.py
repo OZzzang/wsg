@@ -18,6 +18,13 @@ def parse_args():
 
     args = parser.parse_args()
 
+    if args.total_requests <= 0:
+        parser.error("--requests must be a positive integer")
+    if args.concurrency <= 0:
+        parser.error("--concurrency must be a positive integer")
+    if args.timeout <= 0:
+        parser.error("--timeout must be a positive number")
+
     return Config(
         url=args.url,
         method=args.method,
