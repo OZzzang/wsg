@@ -7,8 +7,16 @@ results.
 ## Install
 
 ```bash
-uv sync
+uv tool install wsg
 ```
+
+Or, without a permanent install:
+
+```bash
+uvx wsg <url> [options]
+```
+
+`pipx install wsg` / `pip install wsg` also work if you don't use `uv`.
 
 ## Usage
 

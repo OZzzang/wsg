@@ -1,7 +1,7 @@
 [project]
 name = "wsg"
 version = "0.1.0"
-description = "Add your description here"
+description = "API load testing tool that produces latency/throughput graphs"
 readme = "README.md"
 authors = [
     { name = "Owen Zeng", email = "owenzeng315@gmail.com" }
