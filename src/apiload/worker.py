@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from wsg.config import Config
+from apiload.config import Config
 import time
 import httpx
 import asyncio

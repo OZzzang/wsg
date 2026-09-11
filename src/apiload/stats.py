@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from wsg.worker import Result
+from apiload.worker import Result
 from collections import Counter
 
 import statistics

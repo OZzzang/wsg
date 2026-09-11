@@ -1,10 +1,10 @@
 import asyncio
 
-from wsg.cli import parse_args
-from wsg.runner import run
-from wsg.stats import summarize
-from wsg.reports import print_report
-from wsg.graph import render
+from apiload.cli import parse_args
+from apiload.runner import run
+from apiload.stats import summarize
+from apiload.reports import print_report
+from apiload.graph import render
 
 def main():
     config = parse_args()

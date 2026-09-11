@@ -7,21 +7,21 @@ results.
 ## Install
 
 ```bash
-uv tool install wsg
+uv tool install apiload
 ```
 
 Or, without a permanent install:
 
 ```bash
-uvx wsg <url> [options]
+uvx apiload <url> [options]
 ```
 
-`pipx install wsg` / `pip install wsg` also work if you don't use `uv`.
+`pipx install apiload` / `pip install apiload` also work if you don't use `uv`.
 
 ## Usage
 
 ```bash
-wsg <url> [options]
+apiload <url> [options]
 ```
 
 ### Options
@@ -39,7 +39,7 @@ wsg <url> [options]
 ### Example
 
 ```bash
-wsg https://api.example.com/ping -n 500 -c 20 -o load_test.png
+apiload https://api.example.com/ping -n 500 -c 20 -o load_test.png
 ```
 
 This sends 500 requests at a concurrency of 20 and saves a latency

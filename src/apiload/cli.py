@@ -1,6 +1,6 @@
 import argparse
 
-from wsg.config import Config
+from apiload.config import Config
 
 def parse_args():
     '''

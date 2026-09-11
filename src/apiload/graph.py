@@ -4,8 +4,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from wsg.worker import Result
-from wsg.stats import bucket_throughputs
+from apiload.worker import Result
+from apiload.stats import bucket_throughputs
 
 
 def render(results: list[Result], output_path: str) -> None:

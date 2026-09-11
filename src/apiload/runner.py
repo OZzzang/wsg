@@ -3,8 +3,8 @@ import httpx
 import sys
 import time
 
-from wsg.config import Config
-from wsg.worker import Result, send_request
+from apiload.config import Config
+from apiload.worker import Result, send_request
 
 async def run(config: Config) -> tuple[list[Result], float]:
     '''

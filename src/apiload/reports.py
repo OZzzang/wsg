@@ -1,4 +1,4 @@
-from wsg.stats import Summary
+from apiload.stats import Summary
 
 def print_report(summary: Summary, url: str, method: str) -> None:
     '''
