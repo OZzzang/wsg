@@ -1,6 +1,6 @@
 # API Load Testing Tool
 
-apiload is designed for performance visualization. Sends concurrent
+API Load is designed for performance visualization. Sends concurrent
 requests to an endpoint and produces latency/throughput graphs from the
 results.
 
