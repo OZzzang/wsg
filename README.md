@@ -1,7 +1,7 @@
 # API Load Testing Tool
 
-API load testing tool designed for performance visualization. Sends concurrent
-requests to an endpoint and produces a latency/throughput graph from the
+apiload is designed for performance visualization. Sends concurrent
+requests to an endpoint and produces latency/throughput graphs from the
 results.
 
 ## Install
